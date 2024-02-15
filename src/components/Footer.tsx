@@ -18,7 +18,7 @@ export const Footer = () => {
                 ))}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Bartosz Jarocki. All rights reserved.
+                Thanks to <a href="https://github.com/BartoszJarocki/jarocki.me" target='_blank'>Bartosz Jarocki</a> who created this template.  &copy; {new Date().getFullYear()}
               </p>
             </div>
           </Container.Inner>

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://jarocki.me
+Host: https://im-fidaa.netlify.app/
 
 # Sitemaps
 Sitemap: https://jarocki.me/sitemap.xml

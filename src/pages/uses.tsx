@@ -24,8 +24,8 @@ export default function Uses() {
         }}
       />
       <PageLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="Here's a big list of all of my favorite stuff."
+        title="The software I use and the gadgets I have."
+        intro="Use items until they really can't be used anymore."
       >
         <div className="space-y-20">
           {Object.entries(Tools).map(([title, tools]) => (
