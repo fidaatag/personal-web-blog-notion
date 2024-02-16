@@ -158,7 +158,7 @@ class NotesApi {
               ? page.properties.description.rich_text[0].plain_text
               : '',
           slug:
-            'rich_text' in page.properties.slug ? page.properties.slug.rich_text[0].plain_text : '',
+            'formula' in page.properties.slug ? page.properties.slug.formula.string : '',
           isPublished:
             'checkbox' in page.properties.published ? page.properties.published.checkbox : false,
           publishedAt:
