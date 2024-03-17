@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://im-fidaa.netlify.app/
+Host: https://fidaatag.vercel.app/
 
 # Sitemaps
-Sitemap: https://jarocki.me/sitemap.xml
+Sitemap: https://fidaatag.vercel.app/sitemap.xml
