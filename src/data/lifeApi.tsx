@@ -41,7 +41,7 @@ export const MyCurrentProjects: Project[] = [
     logo: DipiLogo,
     link: {
       label: 'dipi client',
-      href: 'dipi-client.vercel.app',
+      href: 'https://dipi-client.vercel.app',
     },
   },
 ];
