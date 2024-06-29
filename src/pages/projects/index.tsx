@@ -3,7 +3,6 @@ import { GetStaticProps } from 'next';
 import { NextSeo } from 'next-seo'
 import { PageLayout } from 'src/components/PageLayout';
 import { ProjectCard } from 'src/components/ProjectCard';
-import { MyCurrentProjects, MyPastProjects } from 'src/data/lifeApi';
 import { ANIMATION_FROM_PROPS, ANIMATION_TO_PROPS } from 'src/lib/animation';
 import { Proj, projectApi } from 'src/lib/projectApi';
 
@@ -44,7 +43,7 @@ export default function Projects({ projects }: Props) {
         >
           {projects.map((project) => (
             <motion.li
-              // key={project.title}
+              key={project.title}
               initial={ANIMATION_FROM_PROPS}
               whileInView={ANIMATION_TO_PROPS}
               viewport={{ once: true }}
