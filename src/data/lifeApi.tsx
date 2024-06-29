@@ -1,6 +1,7 @@
 import { GitHubIcon } from '../components/icons/GitHubIcon';
 import { InstagramIcon } from '../components/icons/InstagramIcon';
 import { XIcon } from '../components/icons/XIcon';
+import AzuraLabsLogo from '../images/logos/azuralabs.jpg'
 import BmiCheckLogo from '../images/logos/bmicheck.png';
 import DicodingLogo from '../images/logos/dicoding.jpeg';
 import DipiLogo from '../images/logos/dipi.png';
@@ -98,11 +99,18 @@ export const SocialMedia = [
 
 export const Work = [
   {
+    company: 'Azura Labs',
+    title: 'Intern Software Enginer',
+    logo: AzuraLabsLogo,
+    start: '2024',
+    end: 'now',
+  },
+  {
     company: 'Sudut Kota Lama',
     title: 'Fotografer',
     logo: SudutKotaLamaLogo,
     start: '2022',
-    end: 'now',
+    end: '2024',
   },
   {
     company: 'Sendokibu',

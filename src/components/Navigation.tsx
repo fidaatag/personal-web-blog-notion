@@ -19,8 +19,8 @@ export const NavigationItems = [
     type: 'internal',
   },
   {
-    name: 'Creating',
-    href: '/creating',
+    name: 'Projects',
+    href: '/projects',
     type: 'internal',
   },
   {
@@ -49,7 +49,9 @@ export const NavLink = ({ href, children }: React.PropsWithChildren<{ href: stri
 };
 
 const NavItem = ({ href, children }: React.PropsWithChildren<{ href: string }>) => {
-  const isActive = useRouter().pathname === href;
+
+  const router = useRouter().pathname;
+  const isActive = (href === '/' && router === '/') || (href !== '/' && router.includes(href));
 
   return (
     <li>

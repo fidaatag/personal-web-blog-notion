@@ -40,7 +40,7 @@ export default function Note({
         images={[openGraphImageUrl]}
         title={title}
         datePublished={createdAt}
-        authorName="Bartosz Jarocki"
+        authorName="Fidaa Mustaghfiroh"
         description={description}
       />
       <NoteLayout

@@ -5,7 +5,7 @@ import { notesApi } from '../../lib/notesApi';
 
 const rss: NextApiHandler = async (req, res) => {
   const feed = new RSS({
-    title: 'Bartosz Jarocki',
+    title: 'Fidaa Mustaghfiroh',
     site_url: 'https://im-fidaa.netlify.app',
     feed_url: 'https://im-fidaa.netlify.app/rss.xml',
   });
